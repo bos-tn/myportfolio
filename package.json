@@ -1,8 +1,8 @@
 {
-  "name": "my-portfolio",
+  "name": "myportfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://hawwokitty.github.io/my-portfolio",
+  "homepage": "https://bos-tn.github.io/myportfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
