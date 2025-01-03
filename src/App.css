@@ -1,0 +1,178 @@
+body {
+  background: url("./mountains_wallpaper.jpg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.desktop-icons {
+  width: 70px;
+  height: 70px;
+  margin: 4px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.desktop-icons p {
+  text-align: center;
+}
+
+.active-icon {
+  background: rgba(12, 0, 120, 0.6);
+  border: 1px white dotted;
+}
+
+.inactive-icon {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  position: absolute; /* Ensure it positions relative to the modal */
+  z-index: 9999; /* Ensure it appears above other elements */
+}
+
+.address-bar {
+  display: flex;
+  padding: 5px;
+}
+
+.streaming-icons {
+  display: flex;
+}
+
+.streaming-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* .streaming-dropdown {
+  width: 300px;
+} */
+
+.twitch-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arts-fields {
+  display: flex;
+  /* height: 90%; */
+}
+
+.arts-picture-text {
+  display: flex;
+  padding: 5px;
+}
+
+.arts-img-div {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.arts-img-div > .arts-frame {
+  position: absolute;
+  top: 0;
+  left: 50%; /* Center horizontally */
+  transform: translateX(
+    -50%
+  ); /* Pull it back by 50% of its width to center it */
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arts-img-div img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  padding: 3px;
+}
+
+.arts-tree {
+  width: 100%;
+  overflow: auto;
+}
+
+.arts-bg-button {
+  margin-left: 10px;
+}
+
+.resume-skills {
+  padding: 5px;
+}
+
+.resize {
+  resize: both;
+  overflow: auto;
+}
+
+.contact-icons a {
+  padding: 3px;
+}
+
+.contact-info {
+  padding: 15px;
+}
+
+.rc-flex-container {
+  display: flex;
+}
+
+.rc-list {
+  display: flex;
+  user-select: none;
+}
+
+.rc-item {
+  min-width: 180px;
+  width: 100%;
+}
+
+.rc-list-span {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.fieldset-container {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+  justify-content: space-between;
+}
+
+.fieldset-container > fieldset {
+  flex: 1;
+  min-width: 300px; /* Adjust the minimum width as needed */
+}
+.lower-fieldset-container {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+  justify-content: space-between;
+}
+
+.lower-fieldset-container > fieldset {
+  flex: 1;
+  min-width: 300px; /* Adjust the minimum width as needed */
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 70%;
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
