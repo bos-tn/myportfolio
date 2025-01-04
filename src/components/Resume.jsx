@@ -91,7 +91,7 @@ export default function Resume(props) {
                   Im a big part of the research teams at Widener University,
                   mainly focusing on material science and the development of
                   new manufacturing techniques.(3D printing, CNC machining, etc.)
-                  See the "Papers" tab to read my published papers. Im just as
+                  See the "Research Papers" tab to read my published papers. Im just as
                   comfortable welding in the shop as I am writing data analysis code 
                   in the lab. I have a passion for design, learning and developing new skills.
                 </p>
@@ -207,6 +207,61 @@ export default function Resume(props) {
                     <li className="resume-skills">Adaptability</li>
                   </ul>
                 </Fieldset>
+              </div>
+            </Tab>
+            <Tab title="Clubs and Activities">
+              <div
+                style={
+                  windowSmall
+                    ? { height: window.innerHeight * 0.7, overflow: "auto" }
+                    : null
+                }
+              >  
+              <Fieldset legend="Clubs">
+                <Checkbox readOnly checked={true}>
+                  <b> Widener University ASME</b>, I am a member of the American Society of Mechanical Engineers (2023 - now)
+                </Checkbox>
+                <Checkbox readOnly checked={true}>
+                  <b> Widener University Peer Mentor</b>, I am a peer mentor for the incoming freshman class. 
+                  Where I lead a large group of incoming students to sucess at Widener. (2023 - now)
+                </Checkbox>
+              </Fieldset>           
+               <Fieldset legend="Athletics">
+                <Checkbox readOnly checked={true}>
+                  <b> Widener University Football Team</b>, I play middle linebacker on the football team
+                  <a href="https://widenerpride.com/sports/football/roster/boston-blake/12473"> Roster Profile </a> (2023 - now)
+                </Checkbox>
+                <Checkbox readOnly checked={true}>
+                  <b> Widener University Esports</b>, I am the team captian of the Rocket League Esports team
+                   <a href="https://widenerpride.com/sports/esports/roster/boston-blake/12682"> Roster Profile </a> (2023 - now)
+                </Checkbox>
+              </Fieldset>              
+              </div>
+            </Tab>
+            <Tab title="Research Papers">
+              <div
+                style={
+                  windowSmall
+                    ? { height: window.innerHeight * 0.7, overflow: "auto" }
+                    : null
+                }
+              >  
+              <Fieldset legend="3D Printing">
+              <Checkbox readOnly checked={true}>
+                  <b>Optimization of 3D Printing Parameters for High-Performance PEEK Polymers:</b> A Multiscale Analysis
+                    Specialized in optimizing 3D printing parameters for high-performance polymer PEEK. Experienced in material 
+                    characterization using AFM and mechanical testing to enhance surface quality and mechanical properties for 
+                    engineering and biomedical applications. <a href="_blank"> Link </a>
+                </Checkbox>
+                <Checkbox readOnly checked={true}>
+                  <b>Optimiization of 3D printing Parameters for PLA/PLA-CF Composites</b> Focused on analyzing mechanical properties
+                   of PLA and PLA-CF composites. Skilled in tensile and 3-point bending tests to evaluate strength, stiffness,
+                    and material performance. Investigated material ratios to optimize composite structures for improved durability
+                     and structural integrity. <a href="_blank"> Link </a>
+
+                </Checkbox>
+
+              </Fieldset>              
               </div>
             </Tab>
           </Tabs>

@@ -10,14 +10,14 @@ export default function Contact(props) {
   };
 
   // Define the default position
-  const screenW = window.innerWidth * 0.06; // Initial width 50% of screen
-  const screenH = -20;
+  const screenW = window.innerWidth * 0.2; // Initial width 50% of screen
+  const screenH = 20;
   return (
     <>
       {showContact && (
         <Modal
           width="400px"
-          height="230px"
+          height="270px"
           icon={<Dialer1 variant="16x16_4" />}
           title="Contact"
           dragOptions={{
@@ -71,12 +71,12 @@ export default function Contact(props) {
               <p>
                 Email me at:{" "}
               
-                <p><a href="mailto:bostonajblake@gmail.com">
-                  bostonajblake@gmail.com
+                <p>Personal: <a href="mailto:bostonajblake@gmail.com">
+                 bostonajblake@gmail.com
                 </a>
                   <p> or </p> 
-                  <a href="mailto:bablake@widener.edu">
-                  bablake@widener.edu
+                  Work: <a href="mailto:bablake@widener.edu">
+                   bablake@widener.edu
                 </a></p>
                 
                 
